@@ -1,0 +1,452 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: rgb( 17, 17, 17);
+  /* font-family: sans-serif, Arial, Helvetica; */
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ', 'Meiryo','ＭＳ Ｐゴシック','MS PGothic'  
+  /* font-family: 'M PLUS Rounded 1c', 'Noto Sans JP','Montserrat'; */
+}
+
+a{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  width:100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: gray; */
+  /* position: fixed; */
+  /* z-index: 999; */
+}
+
+.header-logo img{
+  /* float: left; */
+  width: 195px;
+  height: 50px;
+  margin: 10px;
+}
+
+.header-list{
+  /* float: right; */
+  display: flex;
+}
+
+li{
+  float: left;
+  list-style: none;
+  margin: 20px 20px 20px 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+li input{
+  padding: 1.75px;
+}
+
+main{
+  /* background-color: greenyellow; */
+  /* float で高さがぜろになった要素を戻すclear */
+  clear: both;
+  /* margin-top: 70px; */
+  /* display: flex; */
+}
+
+.first-park{
+  /* text-align: center; */
+  margin: 0 15px;
+  position: relative;
+}
+
+.first-park h1{
+  position: absolute;
+  font-size: 25px;
+  color: #FFE66D;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-shadow: 0 0 .7px #BDBDBD;
+  top: 25%;
+  left: 25px;
+  /* z-index: 10; */
+}
+
+.first-park h2{
+  position: absolute;
+  font-size: 20px;
+  /* font-weight: 200; */
+  color: #fff;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  top: 60%;
+  left: 25px;
+}
+
+.first-park span{
+  color:#FFE66D;
+  text-shadow: 0 0 .7px #BDBDBD;
+}
+
+.fas{
+  position: absolute;
+  color: #fff;
+  font-size: 3em;
+  top: 72%;
+  left: 30px;
+}
+
+.icon2{
+  top:79%;
+  color: #FFE66D;
+}
+
+.icon3{
+  top:86%;
+}
+
+.icon4{
+  top:93%;
+  color: #FFE66D;
+}
+
+#parkinfo h2{
+  position: absolute;
+  font-size: 25px;
+  /* color: #FFE66D; */
+  color: rgb( 17, 17, 17);
+  /* font-weight: 200; */
+  line-height: 1.4;
+  letter-spacing: 1px;
+  top: 102.5%;
+  left: 25px;
+  /* text-shadow: 0 0 10px #FFE66D; */
+  /* border-bottom: #FFE66D 2px solid; */
+  display: inline-block;
+}
+
+.main-main img{
+  /* position: relative; */
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  filter: grayscale(95%) blur(0.8px) opacity(0.95);
+  border-radius: 2px;
+  transition: .7s;
+  /* filter: blur(0.8px);
+  /* height: 60%; */
+}
+
+.main-main img:hover{
+  filter: grayscale(0%);
+}
+
+.flex-section{
+  margin-top: 55px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+/* .second-left{
+  width: 700px;
+} */
+
+.second-center{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.second-park{
+  width: 400px;
+  height: 400px;
+  margin: 0 15px;
+}
+
+.second-center img{
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  filter: grayscale(95%) blur(0.5px) opacity(0.95);
+  border-radius: 2px;
+  transition: .3s;
+  /* height: 20%; */
+}
+
+.second-center img:hover{
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+  transform:scale(.99);
+  filter: grayscale(0%);
+}
+
+.second-park h1{
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  border-bottom: #FFE66D 1px solid;
+  display: inline-block;
+}
+
+.second-park h1:hover{
+  background-color: #FFE66D;
+  transition: .7s;
+}
+
+
+.second-park p{
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+  
+}
+
+.second-right{
+  width: 30%;
+}
+
+
+.profile{
+  text-align: center;
+  padding-top: 10px;
+  /* background-color: antiquewhite; */
+}
+
+.profile h1{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.profile img{
+  width:220px;
+  height: 220px;
+  /* zoom: 1.5; */
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  filter: grayscale(95%) blur(0.5px) opacity(0.95);
+  border-radius: 50%;
+  transition: .3s;
+  /* transform: rotate(90deg); */
+}
+
+.profile img:hover{
+  filter: grayscale(0%);
+}
+
+#instagram{
+  width: 350px;
+  height: 650px;
+  margin-top: 45px;
+  margin:45px auto;
+  text-align: center;
+}
+
+#instagram h1{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+/* #twitter{
+  width: 350px;
+  height: 300px;
+  padding: 10px;
+} */
+
+footer{
+  height: 80px;
+  text-align: center;
+  color:gray;
+  position: relative;
+  /* background-color: hotpink; */
+}
+
+footer small{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 3.2rem;
+}
+
+/* topへ戻るボタン */
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+#page_top img{
+  width: 40px;
+  opacity: 0.8;
+  text-align: center;
+  filter: grayscale(95%);
+  z-index: 999;
+  /* background-color: tomato; */
+}
+
+#page_top img:hover{
+  opacity: 1;
+  filter: grayscale(0%);
+  transform:scale(1.05);
+  transition: .5s;
+}
+
+#page_top p{
+  text-align: center;
+  margin-bottom: 5px;
+  /* background-color: thistle; */
+}
+
+#page_top a {
+  /* background-color: #999; */
+  /* color: #fff; */
+  /* text-align: center; */
+  text-decoration: none;
+  /* padding: 20px 20px; */
+  /* border-radius: 50%; */
+}
+#page_top a:hover {
+  /* background-color: #666; */
+  /* text-decoration: none; */
+}
+/* topへ戻るボタン終了 */
+
+/* カウントボタンのCSS */
+.word{
+  display: inline-block;
+}
+
+.count{
+  display: inline-block;
+  height: auto;
+  margin-left: 10px;
+  /* vertical-align: middle; */
+  text-align: center;
+}
+
+.count p{
+  font-size: 10px;
+}
+
+.disp_count {
+  /* background-color: #093; */
+  /* color:black; */
+  font-size: 15px;
+  /* border-radius: 10px; */
+  /* padding: 20px; */
+  /* display: inline-block; */
+  /* display: table-cell; */
+}
+
+button.btn_count_up {
+  font-size: 30px;
+  background-color: #fff;
+  border-style: none;
+  height: 2px;
+  margin: auto;
+  padding: auto;
+  /* border-radius: 5px; */
+  /* padding: 5px; */
+  /* margin-bottom: 30px; */
+  /* margin-top: 10px; */
+  display: inline-block;
+  /* font-family: 'FontAwesome'; */
+}
+
+/* ぼたんをクリックしたときにでるぼやっとした枠線を消す擬似クラス */
+button:focus {
+	outline:0;
+}
+
+.faa{
+  color: gray;
+}
+
+.fa-frown:hover{
+  color: #FE5F55;
+  transition: .25s;
+  cursor: pointer;
+}
+.fa-meh:hover{
+  color: #FFE66D;
+  transition: .25s;
+  cursor: pointer;
+}
+.fa-smile:hover{
+  color: #3DA5D9;
+  transition: .25s;
+  cursor: pointer;
+}
+
+  @media screen and (max-width:480px){
+    .header-list{
+      display: none;
+    }
+    .first-park{
+      /* text-align: center; */
+      margin: 0 5px;
+      position: relative;
+    }
+
+    .flex-section{
+      width: 100%;
+      flex-direction: column;
+    }
+    .second-center{
+      width:100%;
+      text-align: center;
+      /* display: block; */
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+    }
+    .second-park{
+      width: 100%;
+      margin: 0;
+      /* display: block; */
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+    }
+    .second-center img{
+      width: 95%;
+      /* display: block; */
+    }
+    .second-right{
+      width: 100%;
+      flex-direction: column;
+      /* display: block; */
+      /* flex-wrap: wrap; */
+
+    }
+    
+    .profile{
+      width: 100%;
+      /* display: block; */
+    }
+
+    .profile img{
+      /* width: 100%; */
+    }
+    
+    #instagram{
+      width: 100%;
+      /* display: block; */
+    }
+
+    .word h1{
+      font-size: 17px;
+    }
+  }
