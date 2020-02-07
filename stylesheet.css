@@ -1,4 +1,4 @@
-@import url(https://use.fontawesome.com/releases/v5.6.1/css/all.css);
+@import url(//use.fontawesome.com/releases/v5.6.1/css/all.css);
 
 *{
   padding: 0;
@@ -7,6 +7,12 @@
   /* font-family: sans-serif, Arial, Helvetica; */
   font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ', 'Meiryo','ＭＳ Ｐゴシック','MS PGothic'  
   /* font-family: 'M PLUS Rounded 1c', 'Noto Sans JP','Montserrat'; */
+}
+
+.fontawesome:before{
+  font-family: "Font Awesome 5 Free";
+  content: '\f007';
+  font-weight: 900;
 }
 
 a{
