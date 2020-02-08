@@ -9,11 +9,11 @@
   /* font-family: 'M PLUS Rounded 1c', 'Noto Sans JP','Montserrat'; */
 }
 
-.fontawesome:before{
+/* .fontawesome:before{
   font-family: "Font Awesome 5 Free";
   content: '\f007';
   font-weight: 900;
-}
+} */
 
 a{
   text-decoration: none;
@@ -372,6 +372,7 @@ button.btn_count_up {
   /* margin-bottom: 30px; */
   /* margin-top: 10px; */
   display: inline-block;
+  -webkit-appearance: none;
   /* font-family: 'FontAwesome'; */
 }
 
