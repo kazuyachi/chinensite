@@ -373,6 +373,7 @@ button.btn_count_up {
   /* margin-top: 10px; */
   display: inline-block;
   -webkit-appearance: none;
+  font-weight: 900;
   /* font-family: 'FontAwesome'; */
 }
 
