@@ -373,7 +373,8 @@ button.btn_count_up {
   /* margin-top: 10px; */
   display: inline-block;
   -webkit-appearance: none;
-  font-weight: 900;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
   /* font-family: 'FontAwesome'; */
 }
 
@@ -385,7 +386,9 @@ button:focus {
 .faa{
   color: gray;
   -webkit-appearance: none;
-  font-weight: 900;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  /* font-weight: 900; */
 }
 
 .fa-frown:hover{
