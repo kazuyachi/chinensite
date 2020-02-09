@@ -479,7 +479,7 @@ button:focus {
     #page_top {
       position: fixed;
       bottom: 30px;
-      right: 20px;
+      right: 15px;
       display: inline-block;
       text-align: center;
     }
