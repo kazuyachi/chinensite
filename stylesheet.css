@@ -384,6 +384,7 @@ button:focus {
 .faa{
   color: gray;
   -webkit-appearance: none;
+  font-weight: 900;
 }
 
 .fa-frown:hover{
