@@ -373,9 +373,9 @@ button.btn_count_up {
   /* margin-bottom: 30px; */
   /* margin-top: 10px; */
   display: inline-block;
-  -webkit-appearance: none;
-  font-weight: bold;
-  font-family: "Font Awesome 5 Free";
+  /* -webkit-appearance: none; */
+  /* font-weight: bold; */
+  /* font-family: "Font Awesome 5 Free"; */
   /* font-family: 'FontAwesome'; */
 }
 
@@ -386,9 +386,9 @@ button:focus {
 
 .faa{
   color: gray;
-  -webkit-appearance: none;
-  font-weight: bold;
-  font-family: "Font Awesome 5 Free";
+  /* -webkit-appearance: none; */
+  /* font-weight: bold; */
+  /* font-family: "Font Awesome 5 Free"; */
   /* font-weight: 900; */
 }
 
