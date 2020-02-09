@@ -475,4 +475,12 @@ button:focus {
     .word h1{
       font-size: 17px;
     }
+
+    #page_top {
+      position: fixed;
+      bottom: 30px;
+      right: 20px;
+      display: inline-block;
+      text-align: center;
+    }
   }
