@@ -362,6 +362,7 @@ footer small{
 
 button.btn_count_up {
   font-size: 30px;
+  height: 30px;
   background-color: #fff;
   border-style: none;
   height: 2px;
