@@ -364,7 +364,8 @@ button.btn_count_up {
   font-size: 30px;
   background-color: #fff;
   border-style: none;
-  height: 50px;
+  height: 31px;
+  width: 31px;
   margin: auto;
   padding: auto;
   /* border-radius: 5px; */
