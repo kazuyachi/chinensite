@@ -383,7 +383,7 @@ button:focus {
 
 .faa{
   color: gray;
-  display: inline-block;
+  -webkit-appearance: none;
 }
 
 .fa-frown:hover{
