@@ -364,7 +364,7 @@ button.btn_count_up {
   font-size: 30px;
   background-color: #fff;
   border-style: none;
-  height: 300px;
+  height: 30px;
   margin: auto;
   padding: auto;
   /* border-radius: 5px; */
@@ -379,9 +379,9 @@ button.btn_count_up {
 }
 
 /* ぼたんをクリックしたときにでるぼやっとした枠線を消す擬似クラス */
-button:focus {
+/* button:focus {
 	outline:0;
-}
+} */
 
 .faa{
   color: gray;
