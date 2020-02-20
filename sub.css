@@ -2,9 +2,7 @@
   padding: 0;
   margin: 0;
   color: rgb( 17, 17, 17);
-  /* font-family: sans-serif, Arial, Helvetica; */
   font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ', 'Meiryo','ＭＳ Ｐゴシック','MS PGothic'  
-  /* font-family: 'M PLUS Rounded 1c', 'Noto Sans JP','Montserrat'; */
 }
 
 a{
@@ -19,20 +17,15 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* background-color: gray; */
-  /* position: fixed; */
-  /* z-index: 999; */
 }
 
 .header-logo img{
-  /* float: left; */
   width: 195px;
   height: 50px;
   margin: 10px;
 }
 
 .header-list{
-  /* float: right; */
   display: flex;
 }
 
@@ -49,15 +42,10 @@ li input{
 }
 
 main{
-  /* background-color: greenyellow; */
-  /* float で高さがぜろになった要素を戻すclear */
   clear: both;
-  /* margin-top: 70px; */
-  /* display: flex; */
 }
 
 .first-park{
-  /* text-align: center; */
   margin: 0 15px;
   position: relative;
 }
@@ -72,7 +60,6 @@ main{
   border-bottom: #FFE66D 1px solid;
   top: 45%;
   left: 43%;
-  /* z-index: 10; */
 }
 .first-park p{
   position: absolute;
@@ -83,13 +70,11 @@ main{
   text-shadow: 0 0 .7px #BDBDBD;
   top: 58%;
   left: 43%;
-  /* z-index: 10; */
 }
 
 .first-park h2{
   position: absolute;
   font-size: 20px;
-  /* font-weight: 200; */
   color: #fff;
   line-height: 1.4;
   letter-spacing: 1px;
@@ -127,44 +112,27 @@ main{
 #parkinfo h2{
   position: absolute;
   font-size: 25px;
-  /* color: #FFE66D; */
   color: rgb( 17, 17, 17);
-  /* font-weight: 200; */
   line-height: 1.4;
   letter-spacing: 1px;
   top: 102.5%;
   left: 25px;
-  /* text-shadow: 0 0 10px #FFE66D; */
-  /* border-bottom: #FFE66D 2px solid; */
   display: inline-block;
 }
 
 .main-main img{
-  /* position: relative; */
   width: 100%;
   height: 520px;
   object-fit: cover;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  /* filter: grayscale(95%) blur(0.8px) opacity(0.95); */
   border-radius: 2px;
   transition: .7s;
-  /* filter: blur(0.8px);
-  /* height: 60%; */
 }
-
-/* .main-main img:hover{
-  filter: grayscale(0%);
-} */
 
 .flex-section{
   margin-top: 55px;
   display: flex;
-  /* flex-wrap: wrap; */
 }
-
-/* .second-left{
-  width: 700px;
-} */
 
 .second-center{
   width: 100%;
@@ -184,7 +152,6 @@ main{
   filter: grayscale(95%) blur(0.5px) opacity(0.95);
   border-radius: 2px;
   transition: .3s;
-  /* height: 20%; */
 }
 
 .second-center img:hover{
@@ -226,7 +193,6 @@ main{
 .profile{
   text-align: center;
   padding-top: 10px;
-  /* background-color: antiquewhite; */
 }
 
 .profile h1{
@@ -239,13 +205,11 @@ main{
 .profile img{
   width:220px;
   height: 220px;
-  /* zoom: 1.5; */
   object-fit: cover;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   filter: grayscale(95%) blur(0.5px) opacity(0.95);
   border-radius: 50%;
   transition: .3s;
-  /* transform: rotate(90deg); */
 }
 
 .profile img:hover{
@@ -267,18 +231,11 @@ main{
   letter-spacing: 1px;
 }
 
-/* #twitter{
-  width: 350px;
-  height: 300px;
-  padding: 10px;
-} */
-
 footer{
   height: 80px;
   text-align: center;
   color:gray;
   position: relative;
-  /* background-color: hotpink; */
 }
 
 footer small{
@@ -307,7 +264,6 @@ footer small{
   text-align: center;
   filter: grayscale(95%);
   z-index: 999;
-  /* background-color: tomato; */
 }
 
 #page_top img:hover{
@@ -320,21 +276,12 @@ footer small{
 #page_top p{
   text-align: center;
   margin-bottom: 5px;
-  /* background-color: thistle; */
 }
 
 #page_top a {
-  /* background-color: #999; */
-  /* color: #fff; */
-  /* text-align: center; */
   text-decoration: none;
-  /* padding: 20px 20px; */
-  /* border-radius: 50%; */
 }
-#page_top a:hover {
-  /* background-color: #666; */
-  /* text-decoration: none; */
-}
+
 /* topへ戻るボタン終了 */
 
 /* カウントボタンのCSS */
@@ -346,7 +293,6 @@ footer small{
   display: inline-block;
   height: auto;
   margin-left: 10px;
-  /* vertical-align: middle; */
   text-align: center;
 }
 
@@ -355,13 +301,7 @@ footer small{
 }
 
 .disp_count {
-  /* background-color: #093; */
-  /* color:black; */
   font-size: 15px;
-  /* border-radius: 10px; */
-  /* padding: 20px; */
-  /* display: inline-block; */
-  /* display: table-cell; */
 }
 
 button.btn_count_up {
@@ -371,12 +311,7 @@ button.btn_count_up {
   height: 2px;
   margin: auto;
   padding: auto;
-  /* border-radius: 5px; */
-  /* padding: 5px; */
-  /* margin-bottom: 30px; */
-  /* margin-top: 10px; */
   display: inline-block;
-  /* font-family: 'FontAwesome'; */
 }
 
 /* ぼたんをクリックしたときにでるぼやっとした枠線を消す擬似クラス */
@@ -423,7 +358,6 @@ button:focus {
       display: none;
     }
     .first-park{
-      /* text-align: center; */
       margin: 0 5px;
       position: relative;
     }
@@ -435,41 +369,27 @@ button:focus {
     .second-center{
       width:100%;
       text-align: center;
-      /* display: block; */
-      /* flex-wrap: wrap; */
       flex-direction: column;
     }
     .second-park{
       width: 100%;
       margin: 0;
-      /* display: block; */
-      /* flex-wrap: wrap; */
       flex-direction: column;
     }
     .second-center img{
       width: 95%;
-      /* display: block; */
     }
     .second-right{
       width: 100%;
       flex-direction: column;
-      /* display: block; */
-      /* flex-wrap: wrap; */
-
     }
     
     .profile{
       width: 100%;
-      /* display: block; */
-    }
-
-    .profile img{
-      /* width: 100%; */
     }
     
     #instagram{
       width: 100%;
-      /* display: block; */
     }
 
     .word h1{
