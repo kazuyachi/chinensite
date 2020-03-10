@@ -141,6 +141,7 @@ main{
   width: 45%;
   height: 400px;
   margin: 0 15px;
+  display: block;
 }
 
 .second-center img{
