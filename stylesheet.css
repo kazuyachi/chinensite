@@ -342,6 +342,11 @@ button:focus {
       position: relative;
     }
 
+    .main-main img{
+      width: 100%;
+      height: 400px;
+    }
+    
     .flex-section{
       width: 100%;
       flex-direction: column;
