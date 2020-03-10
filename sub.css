@@ -149,7 +149,7 @@ main{
 .second-center img{
   width: 380px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  filter: grayscale(95%) blur(0.5px) opacity(0.95);
+  /* filter: grayscale(95%) blur(0.5px) opacity(0.95); */
   border-radius: 2px;
   transition: .3s;
 }
@@ -157,7 +157,7 @@ main{
 .second-center img:hover{
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
   transform:scale(.99);
-  filter: grayscale(0%);
+  /* filter: grayscale(0%); */
 }
 
 .second-park h1{
@@ -188,7 +188,6 @@ main{
 .second-right{
   width: 30%;
 }
-
 
 .profile{
   text-align: center;
