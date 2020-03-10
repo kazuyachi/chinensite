@@ -161,7 +161,7 @@ main{
 .set{
   width:100%;
   height:150px;
-  display: inline-block;
+  display: block;
 }
 
 .second-park h1{
