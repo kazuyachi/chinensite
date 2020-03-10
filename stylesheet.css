@@ -137,11 +137,9 @@ main{
 }
 
 .second-park{
-  /* width: 400px; */
-  width: 45%;
+  width: 400px;
   height: 400px;
   margin: 0 15px;
-  display: block;
 }
 
 .second-center img{
