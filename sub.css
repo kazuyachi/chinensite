@@ -207,14 +207,14 @@ main{
   height: 220px;
   object-fit: cover;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  filter: grayscale(95%) blur(0.5px) opacity(0.95);
+  /* filter: grayscale(95%) blur(0.5px) opacity(0.95); */
   border-radius: 50%;
   transition: .3s;
 }
 
-.profile img:hover{
+/* .profile img:hover{
   filter: grayscale(0%);
-}
+} */
 
 #instagram{
   width: 350px;
