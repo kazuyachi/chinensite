@@ -15,7 +15,7 @@ a{
 
 .header{
   width:100%;
-  height: 70px;
+  height: 520px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
